@@ -16,3 +16,52 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  header {
+    text-align: left;
+  }
+
+}
